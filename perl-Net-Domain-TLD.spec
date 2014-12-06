@@ -8,7 +8,7 @@
 Summary:	Work with TLD names
 Name:		perl-Net-Domain-TLD
 Version:	1.70
-Release:	1
+Release:	2
 License:	GPL+ or Artistic
 Group:		Development/Libraries
 Source0:	http://search.cpan.org/CPAN/authors/id/A/AL/ALEXP/Net-Domain-TLD-%{version}.tar.gz
@@ -56,5 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/Net/Domain
 %{perl_vendorlib}/Net/Domain/TLD.pm
 %{_mandir}/man3/Net::Domain::TLD.3pm*
