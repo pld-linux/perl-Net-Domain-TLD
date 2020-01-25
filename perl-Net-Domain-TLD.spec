@@ -4,7 +4,6 @@
 
 %define		pdir	PDIR
 %define		pnam	PNAM
-%include	/usr/lib/rpm/macros.perl
 Summary:	Work with TLD names
 Name:		perl-Net-Domain-TLD
 Version:	1.70
